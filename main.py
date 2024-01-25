@@ -6,4 +6,4 @@ for i in range(3):
     animals.append(random_animal)
 
 for animal in animals:
-    print(animal_says(animal))
+    print(animal_says(animal).make_sound())
